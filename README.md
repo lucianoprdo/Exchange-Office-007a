@@ -1,10 +1,13 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+**O projeto da casa de câmbio é uma aplicação que busca a conversão da taxa de uma moeda para diversas outras.**
+
+Requisitos
+
+Ambiente do Projeto Criar um repositório do zero ou fazer um fork desse repositório (fique à vontade para fazer PRs quando terminar o desenvolvimento). Iniciar projeto com NPM. Estruturar o projeto para usar ESModules (usar type como module no package.json e nas tags script). Instalar Vite como Dev Tool e npm run dev.
+
+Estrutura da Aplicação Estruturar o HTML de acordo com protótipo. Criar tags semânticas no HTML.
+
+Interação com API O endpoint da API que deverá ser usada é https://api.exchangerate.host/latest?base=${moeda}. A moeda a ser pesquisada deverá ser passada como o parâmetro moeda do endpoint. Todas as moedas deverão ser listadas na tela. Acesse o link da documentação da API caso necessário
+
+Tratamento de Erro Você deve usar o Sweet Alert 2 para as mensagens de Erro. Um erro deverá aparecer quando nenhuma moeda é passada. Um erro deverá aparecer quando uma moeda inexistente é passada.
+
+Estilização (Bônus) Implementação do protótipo de alta fidelidade
